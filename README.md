@@ -36,7 +36,7 @@ perhaps you don't want to get rid of the original so you keep it
 then you end up adding foot notes and you want to keep track of that as well
 then you 
 
-###Snapshots in time
+### Snapshots in time
 Git uses a commit it represents successive version of a file or a group of files
 Similar to a save as, but it does a little bit more
 
@@ -61,7 +61,7 @@ Github. It's a place to store your code and a place to share code with others. Y
 files on your computer and upload them directly to Github.
 You can keep changes seperate until you're ready to input them
 
-###Git + Github = awesome
+### Git + Github = awesome
 
 Multiple people can work together without messing each other up (sometimes)
 there's sometimes issues with **merge conflicts** these can occur when
