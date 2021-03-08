@@ -46,7 +46,7 @@ functionality.
 </html>
 ```
 
-#### Code
+### Code
 
 * A script is a series of instructions that a computer can follow one-by-one. Each individual instruction or step is known as a **statement**. Statements should end with a semicolon.
 * The pink curly braces indicate the start and end of a **code block**
