@@ -96,3 +96,18 @@ if (hourNow > 18 ){
 document.write(greeting);
 ```
 
+### Objects and Methods
+The **document** object represents the entire webpage. All web browsers implement this object
+The **document** object has sever methods and properties, they are known as **members** of that object.
+You can access the members of an object by using a dot between the object name and the name of the member you want to access
+
+```
+document.write('Good afternoon!');
+```
+The **write()** method of the **document** allows new content to be writen into the page
+whever the **\<script>** element sits.
+
+Sometimes methods need information to work properly. This data is given inside of the parentheses.
+Each piece of informaiton is called a **paramater** of the method. In this case the **write()** method
+needs to know what it is you want to write into the page
+
