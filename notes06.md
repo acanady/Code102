@@ -1,7 +1,11 @@
 ## Lecture
 You saw in the readig how html, css, and javascript fit together
 
-<a href="#code_section>test</a>
+<code>
+   var a = 15;
+   var b = 7;
+   print(a+b);
+</code>
 
 Html is for structure of a webpage
 - This is where the content of the page lives
