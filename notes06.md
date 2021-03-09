@@ -1,6 +1,8 @@
 ## Lecture
 You saw in the readig how html, css, and javascript fit together
 
+<a href="#code_section>test</a>
+
 Html is for structure of a webpage
 - This is where the content of the page lives
 - What is the website content? What does that mean?
