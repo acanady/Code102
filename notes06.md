@@ -1,12 +1,6 @@
 ## Lecture
 You saw in the readig how html, css, and javascript fit together
 
-<code>
-   var a = 15;
-   var b = 7;
-   print(a+b);
-</code>
-
 Html is for structure of a webpage
 - This is where the content of the page lives
 - What is the website content? What does that mean?
@@ -51,9 +45,8 @@ functionality.
     </body>
 </html>
 ```
-<a id="code_section">
+
 ### Code
-</a>
 
 * A script is a series of instructions that a computer can follow one-by-one. Each individual instruction or step is known as a **statement**. Statements should end with a semicolon.
 * The pink curly braces indicate the start and end of a **code block**
