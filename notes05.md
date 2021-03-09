@@ -27,7 +27,7 @@ p {
 * A deceleration is made up of two parts, a propery, and a value.
 * In the case above, the property is the font-family and the value is Arial, all declerations are ended with a colon as part of the CSS syntax
 
-# Different types of selectors
+### Different types of selectors
 * Univresal selector *{}
 * Type Selector h1,h2,h2 {}
 * Class Selector .note {}
@@ -35,3 +35,26 @@ p {
 * Child Selector li>a {} matches all elements that are children of another
 * Descendant Selector p a {} matches an element that is a descendant of another specified element. This targets any <a> elements that sit inside <p> elements
 *  Adjacent and general sibling selectors which we won't cover they are barely used
+
+### Color
+* Within color there's different ways to specify color
+* colors in rgb are specified from 0 to 255
+* HexCodes are the hex vode values of rgb, shown in hexadecimal
+```
+ background-color: rgb(102,205,170)
+ backround-color: #66cdaa
+ backround-color: MediumAquaMarine
+ background-color: rgba(0,0,0,0.5);
+ 
+ ```
+ 
+ Low contrast, high contrast and medium contrast
+ low contrast is hard to see, high contrast can be strainig on the eyes with tones of text, medium contrast is good for tons of text
+ 
+ Opacity, how opaque something is, the more opaque the less solid and more see through the item
+ 
+ Theres HSL (Hue, Saturation and Lightness) the amount of white or balck in a color *luminosity*
+ [brightness only adds black, lightness offers both white and black]
+ 
+ #### HSL an HSLA
+ hue is a value fom 0 - 360 with a again being the alpha, how transparent
