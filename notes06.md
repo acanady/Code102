@@ -45,9 +45,9 @@ functionality.
     </body>
 </html>
 ```
-
+<a id="code_section">
 ### Code
-
+</a>
 * A script is a series of instructions that a computer can follow one-by-one. Each individual instruction or step is known as a **statement**. Statements should end with a semicolon.
 * The pink curly braces indicate the start and end of a **code block**
 * Javascript is case sensetive, so **hourNow** is different from say **HOURNOW**, in variable names we don't put spaces
