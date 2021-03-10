@@ -46,10 +46,10 @@ functionality.
 </html>
 ```
 
-### Code
+### Statement
 
 * A script is a series of instructions that a computer can follow one-by-one. Each individual instruction or step is known as a **statement**. Statements should end with a semicolon.
-* The pink curly braces indicate the start and end of a **code block**
+* The curly braces indicate the start and end of a **code block**
 * Javascript is case sensetive, so **hourNow** is different from say **HOURNOW**, in variable names we don't put spaces
 
 ```
@@ -68,6 +68,7 @@ if (hourNow > 18 ){
 }
 document.write(greeting);
 ```
+
 
 ### Comments
 
@@ -109,5 +110,48 @@ whever the **\<script>** element sits.
 
 Sometimes methods need information to work properly. This data is given inside of the parentheses.
 Each piece of informaiton is called a **paramater** of the method. In this case the **write()** method
-needs to know what it is you want to write into the page
+needs to know what it is you want to write into the page.
 
+#### Your javascript code will run whever the \<script> element is on the page
+
+### What is a variable?
+When writing JavaScript you tell the interpreter each individual stp you want it to perform
+```
+var width = 0;
+var height = 3;
+var area = width * height;
+```
+
+This script here does a few things
+1. Remember the value for width
+2. Remember the value for height
+3. Multiply width times height and store it in the area variable
+4. Return the value to the user
+
+The data stored in a variable can change (or vary) each time a script runs
+
+### Declaring a variable
+Before you can use a variable, you need to announce that you want to use it, this is called
+**declaring** the variable
+ ```
+ var quantity;
+ ```
+ 
+ var is an example of what you call a keywoard. The javascript interpreter
+ knows that this keyword is used to create a variable. Then the variable n eeds a name.
+ if a variable has more than one word it is sometimes written in **camelCase** or **snake_case**
+ 
+ ### Assigning variable values
+ 
+ ```
+ quantity = 3;
+ ```
+ Once you have created a variable, you can assign a value to it.
+ This  can also be done on the same line of code with one statement by writing
+ 
+ ```
+ var quantity = 3;
+ ```
+ 
+ The equals sign is an **assignment operator** it says that you are going to assign a value to the variable
+ until the variable has a value assigned to it, the value is **undefined**
