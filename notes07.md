@@ -2,8 +2,24 @@
 
 Todays lecture covers more javascript and the ins and outs of functions, expressions, opreators, and refactoring code
 
+### Scripts are instructions that we give a computer
+
+Computers solve problems **programmatically** they follow a series of instructinos, on after the other.
+The type of instructions they need are often different to the type of instructions you might give to another human.
+
+When determining out script we first need to think about what is is we watn to accomplish and how our website will flow, here's an example of a flowchat
+
+* When button gets clicked
+* Get the name entered in the form
+* If the name is
+
+
+Here's an interesting exercise that I do with my highschool students, sadly we can't do it in person but it still has the same effect
+Say we had a bag of marbles of unknown size, and a large gorup of people of unknown size, too many for you to count. This is a special bag, anhyone can put put their hand in and remove a marble. However, once you remove a marble, That specific person cannot take another marble out (So you couldn't just count all the marbles). Think of an **algorithm** to determine which is larger, the number of people in the crowd, or the number of marbles in the bag.
+
 ### Expressions and operators
 An expression is any valid set of literals, variables, operators and expressions that evaluate to a single value. This may be a number, a string, or a logical value.
+There are two main types, one that assigns a value simply, and one that uses to or more values to return a single value
  ```
  x = 7
  ```
@@ -11,6 +27,41 @@ An expression is any valid set of literals, variables, operators and expressions
  
  ```
  x + 7
+ //Arithmetic operators are (+,-,/,*,++,--, %)
  ```
- 
- this is an arithmetic expression that evaluates to 7, it does not perform an assignment. The operators used in such expressions are reffered to as **operators**
+This is an arithmetic expression that evaluates to 7, it does not perform an assignment. The operators used in such expressions are reffered to as **operators**
+An arithemtic expression follows general orders or operation PEDMAS
+
+A conditional expression is one that can have one of two values based on a condition. The syntax is as such
+
+```
+(condition) true: val1 | false : val2
+```
+In javascript if statements (Which include elsif and else) are examples of conditional statements
+
+```
+x = 5
+if(x == 5){
+ console.log('hello world');
+}
+```
+
+The conditional expression here checks for equivalence on whether or not x equals 5 the double equals is a **comparison operator**
+
+```
+!=
+>, <
+>=, <=
+==, ===
+```
+
+There are other logical operators such as **Or**, **Not**, **And** they take boolean valeues (True or False) as operands
+
+For string values you can **concatenate** strings and variables to form new strings
+
+```
+x = 10
+phrase = 'x is equal to ' + x;
+console.log(phrase);
+```
+
