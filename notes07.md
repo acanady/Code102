@@ -17,6 +17,10 @@ When determining out script we first need to think about what is is we watn to a
 Here's an interesting exercise that I do with my highschool students, sadly we can't do it in person but it still has the same effect
 Say we had a bag of marbles of unknown size, and a large gorup of people of unknown size, too many for you to count. This is a special bag, anhyone can put put their hand in and remove a marble. However, once you remove a marble, That specific person cannot take another marble out (So you couldn't just count all the marbles). Think of an **algorithm** to determine which is larger, the number of people in the crowd, or the number of marbles in the bag.
 
+* When we refactor our code we change the source code without changing the behaviour. We do this in an effort to keep our code solid and easy to maintain
+
+>>> Any fool can write code that a computer can undrstand. Good programmers write code that humans can understand -Martin Fowler
+
 ### Expressions and operators
 An expression is any valid set of literals, variables, operators and expressions that evaluate to a single value. This may be a number, a string, or a logical value.
 There are two main types, one that assigns a value simply, and one that uses to or more values to return a single value
@@ -86,7 +90,7 @@ TO create a function you give it a name and write the statements needed to achie
 function sayHello(){
    document.write('Hello');
 }
-
+```
 Functions store the code needed to perform a specific task and the script can ask the function to perform that task whenever it's needed.
 
 To call a function you use the funciton name followed by a parantheses.
@@ -98,4 +102,27 @@ sayHello();
 ```
 
 ### Functions that need information
+Some functions will require information to work, these values go inside the parentheses.
+The items that appear inside the parenthese are known as **paramaters** of the function 
+Inside the function they act like variable names
 
+```
+function multiply(width, height){
+   return width * height;
+}
+```
+
+### Calling Functions that need information
+
+When calling a function that has parameters you need to provide those values when calling the function.
+We call the values these values **arguments** You can use either literal values or variables
+
+```
+var mult = multiply(3,5);
+var a = 5;
+var b = 6
+var mult = multily(a,b);
+```
+### The return keyword
+You'll see that I'm returning a value here, all functions can return values. They don't have to, but many do
+The value that is returned can be stored in a variable for use later.
