@@ -1,4 +1,4 @@
-##Review
+## Review
 
 ### Expressions and operators
 An expression is any valid set of literals, variables, operators and expressions that evaluate to a single value. This may be a number, a string, or a logical value.
@@ -33,3 +33,24 @@ The conditional expression here checks for equivalence on whether or not x equal
 There are other logical operators such as **Or**, **Not**, **And** they take boolean valeues (True or False) as operands
 
 For string values you can **concatenate** strings and variables to form new strings
+
+### What are functions
+Functions let you group statements together to perform a specific task
+If different parts of a script perform the same task, you can reuse the function (rather than repeating the same set of statements)
+
+Here's a basic function showing function calls
+
+```
+//This functions takes in a value a and b and returns a/b
+function divide(a,b){
+   if(b != 0){
+      return a/b;
+   }
+   else{
+      return undefined;
+   }
+}
+```
+
+## Loops
+
