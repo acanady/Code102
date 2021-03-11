@@ -19,7 +19,7 @@ Say we had a bag of marbles of unknown size, and a large gorup of people of unkn
 
 * When we refactor our code we change the source code without changing the behaviour. We do this in an effort to keep our code solid and easy to maintain
 
->>> Any fool can write code that a computer can undrstand. Good programmers write code that humans can understand -Martin Fowler
+> Any fool can write code that a computer can undrstand. Good programmers write code that humans can understand -Martin Fowler
 
 ### Expressions and operators
 An expression is any valid set of literals, variables, operators and expressions that evaluate to a single value. This may be a number, a string, or a logical value.
