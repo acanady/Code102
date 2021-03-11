@@ -64,4 +64,38 @@ x = 10
 phrase = 'x is equal to ' + x;
 console.log(phrase);
 ```
+### What are functions
+Functions let you group statements together to perform a specific task
+If different parts of a script perform the same task, you can reuse the function (rather than repeating the same set of statements)
+
+Here's a basic function
+
+```
+var msg = 'Signup to recieve 10% off your next purchase!'
+function updateMessage(){
+   var elem = document.getElementById('message');
+   elem.textContent = msg;
+}
+```
+
+### Declaring a function
+
+TO create a function you give it a name and write the statements needed to achieve its task inside the curly braces
+
+```
+function sayHello(){
+   document.write('Hello');
+}
+
+Functions store the code needed to perform a specific task and the script can ask the function to perform that task whenever it's needed.
+
+To call a function you use the funciton name followed by a parantheses.
+
+```
+sayHello();
+//Here we are invoking or calling this function
+//A function can be called as many times as you want
+```
+
+### Functions that need information
 
