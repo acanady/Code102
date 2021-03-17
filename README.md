@@ -76,3 +76,35 @@ your front end may be hosted on aws and the back end may be hosted somewhere els
 Ask students how i make the new respository
 Next **deploy** your website, ask them what the first step is to deploy
 the website and then go through to deploying the website
+
+### Command Line Git Setup
+
+Now that we have the terminal properly setup let's go ahead and create a higheracy of folders
+
+* Documents
+* Projects
+* Codecrew
+* Code102
+
+if we go to our github repo we have the code button, we can click on it and then get the link from github
+ 
+we can type git clone [paste the link] not the address bar link, that's not gonna help you
+it may ask for your password, now if we chek, we'll see we have a hello world folder
+
+[the computer recognized that this is a git repo and lets me know that i'm in the main branch]
+
+Lets use the **code** command to open our document in vscode. Let's use ACP (Add Commit Push) to push our changes
+to github
+
+* **git status** this shows what changes we've made. We've changed the README.md and github knows nothing of that
+* **git add [the name of the file] **
+* **git status** now it's green, it's ready to be pushed
+* **git commit -m 'Message must be in quotes, added another heading' **
+* **git status** We commited and moved our head ahead by one commit, our local version (git) is further ahead than what's on github
+* **git push origin main** For now push the 'I believe button' on origin main
+
+I beleive on windwos10 you'll always have to continuously put in your username and password for Github
+Remember these are public so if you're saying stuff like screw this code or this sucks, people can see that
+
+Keep it clean but also relevant
+
