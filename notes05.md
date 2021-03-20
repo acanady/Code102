@@ -1,3 +1,51 @@
+## Review
+
+### HTML Anatomy
+
+In HTML there are 6 different headings
+
+HTML is composed of what are called _elements_ and html element is composed ove an opening tag,
+the content of the element, and the closing tag
+
+```
+<p>Hello World</p>
+
+```
+
+In this example here, the <p> is the opening tag, the "Hello World" text is the **content** and the
+</p> is the closing tag. All closing tags look similar to their opening tag, but with a / present.
+
+A tag and the content between it is called an HTML element.
+
+<body> tag is a key tag only content inside the opening and closing body tags
+can be displayed to the screen.
+
+Any typ eof tag can go inside the body tags
+
+HTML is organized as a collectino of family tree relationships
+
+```html
+<body>
+   <p>Lorem Ipsum, this paragraph is a child</p>
+</body>
+```
+
+As seen in the html code here, the paragraph element is **nested** inside of the body element.
+When this happens it is considered the **child** of that element.  So here the <body> element is
+seen as a parent to the <p> element. Also the main element is at the same level as the first <p> element
+and these elements are called, you'd guess it, siblings.
+
+```html
+ <body> <!--This is an ancestor of the second <p> tag -->
+    <p>This is a child of body</p>
+    <main>
+       <p>This is a child of main and a descendant of <body> </p>
+    </main>
+  </body>
+```
+
+
+
 ## Lecture
 
 ### Thinking Inside the Box
