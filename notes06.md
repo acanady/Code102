@@ -208,3 +208,56 @@ it to work.
 var phrase = "The number entered was " + user_number;
 document.write('<p>'+ phrase + '</p>')
 ```
+
+Let's take in some user input and display a message to the user based on the input that they entered.
+To accomplish this we're going to use an If Statement. Recall from the video that an if statement asks a yes or no question and goes down a particular branch dependent on the answer
+
+the syntax for these if statemnents in javascritp is
+
+```
+if(condition) {
+   //do something
+}
+```
+
+what goes inside of the condition block is our question, also known as a  conditional statement.
+A conditional statement is a statement that has two possible outcomes, true or false.
+
+Let's prompt the user for their age and tell them that they're a child, a teenager, or an adult depending on what they enter. Our first conditional statement is
+
+```
+var age = prompt('Enter your age');
+if (age > 19){
+    alert('You are an adult');
+}
+```
+Let's test this first condition. Great, we got the proper alert.
+Next we'll add what's called an else if statement.
+
+```
+var age = prompt('Enter your age');
+if (age > 19){
+    alert('You are an adult');
+}
+else if (age > 12){
+    alert('You are a teenager');
+}
+```
+
+Great, now we can test this and yep we get the proper outcome in both cases. The way we read this
+conditional statement is first we ask is the age greater than 19. If it is tell them they are an adult.
+If the age isn't greater than 19 then let's ask a different question, is the age greater than 12. If it is then you are a teenager. The final condition we need to check for is if they are less than 12 in which case we want to tell them that they are a child. This can be accomplished with an else statement
+```
+var age = prompt('Enter your age');
+if (age > 19){
+    alert('You are an adult');
+}
+else if (age > 12){
+    alert('You are a teenager');
+}
+else {
+    alert('You are a kid');
+}
+```
+
+The else keyword is the default action taken if both the if and the else if are false. So if we're not older than 19 and we're not older than 12 then we must be 12 or younger and so we tell them they are a kid.
