@@ -1,6 +1,10 @@
 ## Lecture
 You saw in the readig how html, css, and javascript fit together
 
+HTML, CSS, and Javaascript are what we  use to form modern webspites
+HTML is the content layer, CSS is the presentation layer, and Javascrtip is the behaviour layer
+
+
 Html is for structure of a webpage
 - This is where the content of the page lives
 - What is the website content? What does that mean?
@@ -120,6 +124,7 @@ When writing JavaScript you tell the interpreter each individual stp you want it
 var width = 0;
 var height = 3;
 var area = width * height;
+console.log(area);
 ```
 
 This script here does a few things
@@ -155,3 +160,51 @@ Before you can use a variable, you need to announce that you want to use it, thi
  
  The equals sign is an **assignment operator** it says that you are going to assign a value to the variable
  until the variable has a value assigned to it, the value is **undefined**
+ 
+ Variables must start with either a letter, an underscore or a $. There are three main types 
+ of variables, numbers, strings, and booleans.
+ 
+ Numbers are self explanatory and we've seen those already. A **string** is any collection of characters or numbers surrounded by quotes. A **boolean** is a true or false value.
+ 
+ ### String Concatenation
+ You'll see a lot of this going forward so it's important to focus on it now. String concatenation
+ is when you add two strings together. Here's an example
+ 
+ ```
+ console.log('Hello' + 'World');
+ ```
+ 
+ If I save this and refresh the webpage we'll see the text HelloWorld in the console, notice that
+ there's no space, that's because inside the two strings, that is the text in between the quotes, there is no space. I can add one by adding a space somewhere inside the qutoes.
+ 
+ Now this isn't all that useful with two literal string values, that is values that i just defined. But we can use this on variables and on numbers to create strings based off of other iput
+ 
+ ```
+ var age = 10;
+ var name = "Charlie";
+ var phrase = name + ' is ' + age + ' years old.';
+ console.log(phrase);
+ ```
+ 
+ If we were to chanage the age and name variables the phrase would change to reflect that.
+ 
+ ### Adding dynamic components
+ Let's use some javascript to add some dynamic components to our webpage it may not be totally useful for a professional webpage but this exercise will help us understand how to get info from the user
+ and what we can do with it.
+ 
+ Let's use the prompt command to prompt the user for a number between 1 and 10.
+ Then we'll display the number that they entered.
+ 
+ ```
+ var user_number = prompt('Enter a number between 1 and 10);
+ console.log(user_number);
+ ```
+It may be more useful to display the users input on the website itself. We can do that using **document.write()**
+document.write() allows you to write html code directly to the document from javascript! Since we're
+writing html code it's good practice to use html tags as well, though it's not strictly necessary for
+it to work.
+
+```
+var phrase = "The number entered was " + user_number;
+document.write('<p>'+ phrase + '</p>')
+```
